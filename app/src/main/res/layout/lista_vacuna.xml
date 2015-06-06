@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/id_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id_A"
+        android:textColor="#ff0963ff"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/comunidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comunidad"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mvz"
+        android:text="@string/mvz"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telefono"
+        android:text="@string/telefono"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/perros"
+            android:text="@string/perros"
+            android:textColor="#ff0963ff"
+            android:textStyle="italic"
+            android:paddingLeft="5dp"
+            android:paddingBottom="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gatos"
+            android:text="@string/gatos"
+            android:textColor="#ff0963ff"
+            android:textStyle="italic"
+            android:paddingLeft="5dp"
+            android:paddingBottom="3dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

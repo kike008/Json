@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Json</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="id_A">Id_a</string>
+    <string name="comunidad">Comunidad</string>
+    <string name="mvz">MVZ</string>
+    <string name="telefono">Telefono</string>
+    <string name="perros">Perros</string>
+    <string name="gatos">Gatos</string>
+    <string name="title_activity_vista_vacuna">vista_vacuna</string>
+
+</resources>
